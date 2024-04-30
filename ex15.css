@@ -1,0 +1,38 @@
+div{
+    height: 100px;
+    width: 200px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+    width: 800px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*flex-wrap: wrap;*/
+    align-items: flex-start;
+    /*align-content: flex-start;*/
+}
+
+
+#box1{
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+#box2{
+    background-color:palevioletred;
+    height: 200px;
+    flex-shrink:0.5px;
+}
+
+#box3{
+    background-color: aquamarine;
+    height: 70px;
+}
+#box4{
+    background-color: pink;
+    height: 50px;
+}
